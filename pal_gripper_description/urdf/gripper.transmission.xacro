@@ -18,6 +18,7 @@
       </actuator>
       <joint name="${name}_joint">
         <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <mechanicalReduction>${reduction}</mechanicalReduction>
       </joint>
     </transmission>
   </xacro:macro>
